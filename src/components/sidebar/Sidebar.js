@@ -9,10 +9,11 @@ const Sidebar = () => {
 
   return (
     <div className='sidebar'>
-        <div >
+        <div className='logo'>
             <div className='img'></div>
-            <h3 className='grove'>User Grove</h3>
-            <p className='yourname'>by [your name]</p>
+            <div className='names'>
+              <h3 className='grove'>User Grove</h3>
+            <h6 className='yourname'>by [your name]</h6></div>
         </div>
         <div>
             <p className='home'><AiFillHome className='fillh' /> Home</p>

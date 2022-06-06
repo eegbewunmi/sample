@@ -4,11 +4,16 @@
     padding-left: 2rem;
 
 }
+.names {
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+}
 .img {
-    height: 3rem;
-    width: 2rem;
+    height: 4rem;
+    width: 4rem;
     background-color: #c4c4c4;
     border-radius: 4rem;
+    margin-top: 1rem;
 }
 .grove {
     color: #fff;
@@ -17,6 +22,7 @@
 }
 .yourname {
     color: #cecece;
+    margin-top: -1.2rem;
 }
 .fillh {
     color: #fff;
@@ -25,6 +31,9 @@
     font-weight: 400;
 font-size: 14px;
 color: #fff;
+}
+.logo {
+    display: flex;
 }
 .direct {
     font-weight: 400;
@@ -35,14 +44,16 @@ color: #E8E8E8;
 }
 .hrs {
     border: 0.5px solid #D0D0D0;
+    width: 13rem;
+    margin-right: 5rem;
 }
-.dashboard .search .add .setting {
+.dashboard,.search, .add, .setting {
     font-weight: 400;
 font-size: 13.5px;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
 }
-.dashboard .add .search .setting :hover{
-    background: rgba(233, 231, 255, 0.49);
+.dashboard :hover{
+    background-color: rgba(233, 231, 255, 0.49);
 }
