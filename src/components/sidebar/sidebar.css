@@ -1,0 +1,48 @@
+.sidebar {
+    background: linear-gradient(182.81deg, rgba(53, 46, 77, 0) -3.48%, #9F96EF -3.47%, #5F5888 98.43%);
+    height: 100vh;
+    padding-left: 2rem;
+
+}
+.img {
+    height: 3rem;
+    width: 2rem;
+    background-color: #c4c4c4;
+    border-radius: 4rem;
+}
+.grove {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px
+}
+.yourname {
+    color: #cecece;
+}
+.fillh {
+    color: #fff;
+}
+.home {
+    font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+.direct {
+    font-weight: 400;
+font-size: 10px;
+letter-spacing: 0.02em;
+
+color: #E8E8E8;
+}
+.hrs {
+    border: 0.5px solid #D0D0D0;
+}
+.dashboard .search .add .setting {
+    font-weight: 400;
+font-size: 13.5px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.dashboard .add .search .setting :hover{
+    background: rgba(233, 231, 255, 0.49);
+}
