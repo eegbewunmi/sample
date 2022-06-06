@@ -4,10 +4,11 @@ import Dashboard2 from '../contentss/Dashboard2'
 import SearchPosts from '../contentss/SearchPosts'
 import AddUser from '../contentss/AddUser'
 import Navbar from '../dashboard/Navbar'
+import './content.css'
 
 const Content = () => {
   return (
-    <div>
+    <div className='cont' >
         <Navbar />
         <Routes>
             <Route path="/dashboard" element={<Dashboard2/>} />
