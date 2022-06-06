@@ -1,7 +1,7 @@
 .sidebar {
     background: linear-gradient(182.81deg, rgba(53, 46, 77, 0) -3.48%, #9F96EF -3.47%, #5F5888 98.43%);
     height: 100vh;
-    padding-left: 2rem;
+    padding-left: 1.4rem;
 
 }
 .names {
@@ -31,9 +31,11 @@
     font-weight: 400;
 font-size: 14px;
 color: #fff;
+margin-bottom: 1.5rem;
 }
 .logo {
     display: flex;
+    margin-bottom: 2rem;
 }
 .direct {
     font-weight: 400;

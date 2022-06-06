@@ -2,6 +2,7 @@ import React from 'react'
 import {Grid, Typography} from '@material-ui/core'
 import './dashb.css'
 import RecentUser from './RecentUser'
+import Recents from './Recents'
 
 const Dashboard2 = () => {
   return (
@@ -67,7 +68,7 @@ const Dashboard2 = () => {
             </Grid>
         </Grid>
     </Grid>
-    <RecentUser />
+    <Recents />
    </Grid>
   )
 }
